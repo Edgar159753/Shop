@@ -11,7 +11,8 @@
     <title>Hello, world!</title>
   </head>
   <body>
-       <div class="container bg-light">
+
+    <div class="container bg-light">
 
 
       <div class="row align-items-center py-1 ma1">
@@ -63,8 +64,47 @@
   <form class="form-inline">
     <input class="form-control mr-sm-2 d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0 d-none d-sm-block" type="submit">Search</button>
+    <div class="dropdown btn-info">
+  <a class="btn btn-secondary dropdown-toggle btn-info" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Account
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <div>
+      <div class="modal" tabindex="-1" role="dialog">
+    <a class="dropdown-item" href="#">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </a>
+
+
+  </div>
+ <a class="dropdown-item" href="login.html">Login</a>
+    <a class="dropdown-item" href="cart.html">My Orders</a>
+    
+  </div>
+</div>
   </form>
 </nav>
+
+
 
 <nav class="navbar navbar-expand-lg navbar-light bg-secondary d-flex justify-content-between col-12 ">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
@@ -78,9 +118,9 @@
     Category 1
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item pl-1" href="#">Action</a>
-    <a class="dropdown-item pl-1" href="#">Another action</a>
-    <a class="dropdown-item pl-1" href="#">Something else here</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Another action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Something else here</a>
   </div>
         </div>
       </li>
@@ -90,9 +130,9 @@
     Category 2
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item pl-1" href="#">Action</a>
-    <a class="dropdown-item pl-1" href="#">Another action</a>
-    <a class="dropdown-item pl-1" href="#">Something else here</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Another action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Something else here</a>
   </div>
 </div>
       </li>
@@ -102,9 +142,9 @@
     Category 3
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item pl-1" href="#">Action</a>
-    <a class="dropdown-item pl-1" href="#">Another action</a>
-    <a class="dropdown-item pl-1" href="#">Something else here</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Another action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Something else here</a>
   </div>
 </div>
       </li>
@@ -114,9 +154,9 @@
     Category 4
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item pl-1" href="#">Action</a>
-    <a class="dropdown-item pl-1" href="#">Another action</a>
-    <a class="dropdown-item pl-1" href="#">Something else here</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Another action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Something else here</a>
   </div>
 </div>
       </li>
@@ -126,9 +166,9 @@
     Category 5
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item pl-1" href="#">Action</a>
-    <a class="dropdown-item pl-1" href="#">Another action</a>
-    <a class="dropdown-item pl-1" href="#">Something else here</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Another action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Something else here</a>
   </div>
 </div>
       </li>
@@ -138,9 +178,9 @@
       Category 6
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item pl-1" href="#">Action</a>
-    <a class="dropdown-item pl-1" href="#">Another action</a>
-    <a class="dropdown-item pl-1" href="#">Something else here</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Another action</a>
+    <a class="dropdown-item pl-1" href="Shop.html">Something else here</a>
   </div>
 </div>
       </li>
@@ -154,111 +194,606 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-         
-         <nav aria-label="breadcrumb">
+
+
+<nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item"><a href="#">Library</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Data</li>
-  </ol>
+     <li class="breadcrumb-item">Home</li>
+    <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="product.html">Product</a></li>  </ol>
 </nav>
-         <div class="row bg-secondary">
-           <div class="col-3 p1">
-             <p class="p2">Brend</p>
-             <p class="p2">Cost</p>
-             <p class="p2">Year</p>
-             <p class="p2">Videocart</p>
-             <p class="p2">Procesor</p>
-           </div>
-         
-         <div class="col-9">
-           
-           
-          <div class="big1">
-           <img src="https://thumbs.dreamstime.com/z/powerful-computer-system-12034023.jpg" class="d-block w-100" alt="...">
-           <p>This is computer</p>
-             <div class="d-none d-sm-block">
-             <h1>computer</h1>
-             <p>Videocart(esiminch)</p>
-             <p>ozu 12gb</p>
-             <p>eli inch vor xarakteristika</p>
-                             <button type="button" class="btn btn-primary btn-lg btn-block">Buy</button>
-           </div>
-           </div>
-           <div class="big1">
-           <img src="https://thumbs.dreamstime.com/z/powerful-computer-system-12034023.jpg" class="d-block w-100" alt="...">
-           <p>This is computer</p>
-            <div class="d-none d-sm-block">
-             <h1>computer</h1>
-             <p>Videocart(esiminch)</p>
-             <p>ozu 12gb</p>
-             <p>eli inch vor xarakteristika</p>
-                            <button type="button" class="btn btn-primary btn-lg btn-block">Buy</button>
-           </div>
-           </div>
-<div class="big1">
-           <img src="https://thumbs.dreamstime.com/z/powerful-computer-system-12034023.jpg" class="d-block w-100" alt="...">
-           <p>This is computer</p>
+
+    <div id="carouselExampleCaptions" class="carousel slide bg-drak w-sm-50%" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://thumbs.dreamstime.com/z/powerful-computer-system-12034023.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+      	<div class="col-lg-6 spin">
+    
+        <p class="p5">This computer costs 100$</p>
+
+    </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://thumbs.dreamstime.com/z/powerful-computer-system-12034023.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+      	<div class="col-lg-8 spin">
+        <p class="p5">This computer costs 1000$</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://thumbs.dreamstime.com/z/powerful-computer-system-12034023.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+      	<div class="col-lg-6 spin">
+        <p class="p5">This computer is sold</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+      
+    </div>
+
+    <div class="container">
+      
+<div class="row bg-warning">
+
+  <div class="h1 justify-content-center align-items-center m-auto p-0">
   
-   <div class="d-none d-sm-block">
-             <h1>computer</h1>
-             <p>Videocart(esiminch)</p>
-             <p>ozu 12gb</p>
-             <p>eli inch vor xarakteristika</p>
-                   <button type="button" class="btn btn-primary btn-lg btn-block">Buy</button>
-           </div>
-           </div>
-           <div class="big1">
-           <img src="https://thumbs.dreamstime.com/z/powerful-computer-system-12034023.jpg" class="d-block w-100" alt="...">
-           <p>This is computer</p>
+<h1 class="h1">Daily Deals</h1>
 
-            <div class="d-none d-sm-block">
-             <h1>computer</h1>
-             <p>Videocart(esiminch)</p>
-             <p>ozu 12gb</p>
-             <p>eli inch vor xarakteristika</p>
-              <button type="button" class="btn btn-primary btn-lg btn-block">Buy</button>
-           </div>
-             
-           </div>
-          
-         </div>
+</div>
 
-           <div class="row bg-dark a1 d-md-block">
+<div class="big justify-content-center align-items-center m-auto p-0">
+
+	<div class="card col-md-5 col-lg-4 col-8 h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81aoNZFMbkL._AC_SX466_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Photocamera</h5>
+    <p class="card-text">Super HD videos</p>
+    <a href="#" class="btn btn-primary justify-content-center">Buy</a>
+  </div>
+</div>
+
+
+<div class="card col-md-5 col-lg-3 d-none h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81aoNZFMbkL._AC_SX466_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Photocamera</h5>
+    <p class="card-text">Super HD videos</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+<div class="card col-lg-4 d-none d-md-none d-lg-block" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81aoNZFMbkL._AC_SX466_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Photocamera</h5>
+    <p class="card-text">Super HD videos</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+
+<div class="imgbig align-items-center justify-content-center m-auto p-0">
+
+<div class=" col-md-4 col-6">
+  
+ 
+
+<div class="divbig2 align-items-center justify-content-center m-auto p-0">
+
+
+</div>
+
+</div>
+
+
+
+</div>
+
+    </div>
+
+</div>
+
+    <div class="row bg-warning">
+
+
+<div class="big justify-content-center align-items-center m-auto p-0">
+
+	<div class="card col-md-5 col-lg-4 col-8 h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81aoNZFMbkL._AC_SX466_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Photocamera</h5>
+    <p class="card-text">Super HD videos</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+
+<div class="card col-md-5 col-lg-3 d-none h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81aoNZFMbkL._AC_SX466_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Photocamera</h5>
+    <p class="card-text">Super HD videos</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+<div class="card col-lg-4 d-none d-md-none d-lg-block" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81aoNZFMbkL._AC_SX466_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Photocamera</h5>
+    <p class="card-text">Super HD videos</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+
+<div class="imgbig align-items-center justify-content-center m-auto p-0">
+
+<div class=" col-md-4 col-6">
+  
+ 
+
+<div class="divbig2 align-items-center justify-content-center m-auto p-0">
+
+
+</div>
+
+</div>
+
+
+    </div>
+
+</div>
+    <div class="container">
+
+    <div class="row bg-secondary">
+<div class="h1 justify-content-center align-items-center m-auto p-0">
+  
+<h1 class="h1">Categories</h1>
+
+</div>
+
+	<div class="big justify-content-center align-items-center m-auto p-0">
+
+  <div class="card col-md-5 col-lg-4 col-8 h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://www.nedro.nl/166845-large_default/gc046-cb-xiaomi-xiaomi-mi-2i-powerbank-10000mah-1a-2a-quick-charge.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Powerbank</h5>
+    <p class="card-text">10000mh powerbank</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+
+<div class="card col-md-5 col-lg-3 d-none h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://www.nedro.nl/166845-large_default/gc046-cb-xiaomi-xiaomi-mi-2i-powerbank-10000mah-1a-2a-quick-charge.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Powerbank</h5>
+    <p class="card-text">10000mh powerbank</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+<div class="card col-lg-4 d-none d-md-none d-lg-block" style="width: 18rem;">
+  <img src="https://www.nedro.nl/166845-large_default/gc046-cb-xiaomi-xiaomi-mi-2i-powerbank-10000mah-1a-2a-quick-charge.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Powerbank</h5>
+    <p class="card-text">10000mh powerbank</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+
+<div class="imgbig align-items-center justify-content-center m-auto p-0">
+
+<div class=" col-md-4 col-6">
+  
+ 
+
+<div class="divbig2 align-items-center justify-content-center m-auto p-0">
+
+
+</div>
+
+</div>
+
+
+    </div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+    <div class="row bg-secondary">
+<div class="justify-content-center align-items-center m-auto p-0">
+  
+  <div class="big justify-content-center align-items-center m-auto p-0">
+
+  <div class="card col-md-5 col-lg-4 col-8 h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://www.nedro.nl/166845-large_default/gc046-cb-xiaomi-xiaomi-mi-2i-powerbank-10000mah-1a-2a-quick-charge.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Powerbank</h5>
+    <p class="card-text">10000mh powerbank</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+
+<div class="card col-md-5 col-lg-3 d-none h-50 d-sm-block col-sm-4" style="width: 18rem;">
+  <img src="https://www.nedro.nl/166845-large_default/gc046-cb-xiaomi-xiaomi-mi-2i-powerbank-10000mah-1a-2a-quick-charge.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Powerbank</h5>
+    <p class="card-text">10000mh powerbank</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+<div class="card col-lg-4 d-none d-md-none d-lg-block" style="width: 18rem;">
+  <img src="https://www.nedro.nl/166845-large_default/gc046-cb-xiaomi-xiaomi-mi-2i-powerbank-10000mah-1a-2a-quick-charge.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Powerbank</h5>
+    <p class="card-text">10000mh powerbank</p>
+    <a href="#" class="btn btn-primary">Buy</a>
+  </div>
+</div>
+
+
+<div class="imgbig align-items-center justify-content-center m-auto p-0">
+
+<div class=" col-md-4 col-6">
+  
+ 
+
+<div class="divbig2 align-items-center justify-content-center m-auto p-0">
+
+
+</div>
+
+</div>
+
+
+    </div>
+
+</div>
+</div>
+</div>
+
+<div class="row big bg-light d-none d-sm-block">
+
+<div class="big1 col-lg-12">
+
+  <div class="small col-lg-3"><a href="home">Contect Mehome</a></div>
+
+
+
+
+  
+  <div class="small col-lg-3"><a href="home">Live chat</a></div>
+
+
+  
+  <div class="small col-lg-3"><a href="home">Shipping</a></div>
+
+
+  
+  <div class="small col-lg-3"><a href="home">Term f Conditions</a></div>
+
+
+</div>
+
+<div class="big2 col-lg-12">
+  <div class="small col-lg-2 d-none d-lg-block">
+  <a href="home col-lg-12">Link Group 1</a>
+
+<div class="link1 col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 1</a>
+
+</div>
+<div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 2</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 3</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 4</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 5</a>
+  </div>
+
+  </div>
+
+    <div class="small col-lg-3 d-lg-block d-none">
+  <a href="home">Link Group 2</a>
+  <div class="link1 col-lg-12">
+  <a href="home col-lg-12 sm1">Link 1</a>
+
+</div>
+
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1 d-lg-block d-none">Link 2</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 3</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 4</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 5</a>
+  </div>
+
+  </div>
+
+    <div class="small col-lg-2 d-lg-block d-none">
+  <a href="home">Link Group 3</a>
+    <div class="link1 col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 1</a>
+
+</div>
+
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 2</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 3</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 4</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 5</a>
+  </div>
+
+  </div>
+
+    <div class="small col-lg-3 d-lg-block d-none">
+  <a href="home">Link Group 4</a>
+    <div class="link1 col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 1</a>
+
+</div>
+
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 2</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 3</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 4</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 5</a>
+  </div>
+
+  </div>
+
+    <div class="small col-lg-2 d-lg-block d-none">
+  <a href="home">Link Group 5</a>
+    <div class="link1 col-lg-12">
+  <a href="home col-lg-12 sm1">Link 1</a>
+
+</div>
+
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 2</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 3</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 4</a>
+  </div>
+  <div class="col-lg-12 d-lg-block d-none">
+  <a href="home col-lg-12 sm1">Link 5</a>
+  </div>
+
+
+
+  </div>
+
+
+</div>
+
+</div>
+
+<div class="row bg-dark a1 d-none d-md-block">
+  
 <p style="color: red;"> find us in </p>
-<div class="col-lg-12 d-lg-block">
+<div class="col-lg-12 d-lg-block d-none">
+
 <div>
-<div class="a1">
+  <div class="a1">
 <a href="https://www.instagram.com/">
-<img class="col-2" src="https://instagramer.info/wp-content/uploads/2020/03/kisspng-logo-computer-icons-encapsulated-postscript-brand-isntagram-5aec5ac82765c4.jpg">
+  <img class="col-md-1" src="https://instagramer.info/wp-content/uploads/2020/03/kisspng-logo-computer-icons-encapsulated-postscript-brand-isntagram-5aec5ac82765c4.jpg">
 </a>
 </div>
+
 <div class="a1">
 </div>
 <div class="</div>"></div>
-<a href="https://www.google.com/search?q=facebook+login&amp;oq=facebook+login&amp;aqs=chrome..69i57j0l7.5972j0j7&amp;sourceid=chrome&amp;ie=UTF-8">
-<img class="col-2" src="https://st2.depositphotos.com/1144386/7770/v/450/depositphotos_77705004-stock-illustration-%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%BE%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB-%D1%81-%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%BC%D0%B8-%D1%83%D0%B3%D0%BB%D0%B0%D0%BC%D0%B8.jpg">
+<a href="https://www.google.com/search?q=facebook+login&oq=facebook+login&aqs=chrome..69i57j0l7.5972j0j7&sourceid=chrome&ie=UTF-8">
+  <img class="col-md-1" src="https://st2.depositphotos.com/1144386/7770/v/450/depositphotos_77705004-stock-illustration-%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C-%D0%BE%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB-%D1%81-%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%BC%D0%B8-%D1%83%D0%B3%D0%BB%D0%B0%D0%BC%D0%B8.jpg">
 </a>
 </div>
-<div class="a1">
-<a href="https://www.youtube.com/?hl=ru">
-<img class="col-2" src="https://w7.pngwing.com/pngs/282/811/png-transparent-youtube-icon-youtube-play-button-logo-graphic-designer-subscribe-angle-trademark-wordmark.png">
-</a>
-</div>
-</div>
-</div>
-           
-           <style>
-             .big1{
-displey:flex;
-background-color:white;}
 
-.p1{
-background-color:blue;}
-.p2{
-color:orange;
-background-color:black}
-           </style>
+<div class="a1">
+
+<a href="https://www.youtube.com/?hl=ru">
+  <img class="col-md-1" src="https://w7.pngwing.com/pngs/282/811/png-transparent-youtube-icon-youtube-play-button-logo-graphic-designer-subscribe-angle-trademark-wordmark.png">
+</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<style type="text/css">
+  
+  body{
+    background-color: red;
+  }
+
+  .div1{
+    display: flex;
+    font-size: 30px;
+    color:grey;
+  }
+
+  .p5{
+    color:white;
+    font-size: 20px;
+    background-color: grey;
+    margin:0px 0px 50px 0px;
+    height: 40px;
+    align-items: center;
+    animation-name: spin;
+    animation-duration: 3s;
+  }
+
+  .spin{
+  	animation-name: spin;
+  	animation-duration: 4s;
+  	margin: 500px 500px 700px 350px;
+  	animation-timing-function: linear;
+  	animation-delay: 10s;
+  }
+  .big1{
+    display: flex;
+    font-size: 30px;
+    outline:black;
+  }
+
+    .big2{
+    display: flex;
+    font-size: 20px;
+    outline:black;
+  }
+
+.a1{
+  display: flex;
+}
+ /* @keyframes spin{
+}
+
+0%{
+	transform: rotate(0deg);
+	font-size: 20px;
+	height: 50px;
+	width: 200px;
+}
+
+25%{
+	transform:rotate(90deg);
+	font-size: 30px;
+}
+
+50%{
+	transform: rotate(180deg);
+	font-size: 30px;
+}
+
+75%{
+	transform: rotate(270deg);
+	font-size: 30px;
+}
+
+100%{
+	transform: rotate(360deg);
+	font-size: 20px;
+}*/
+
+
+
+  }
+
+  .h1{
+    align-items: center;
+    justify-content: center;
+  }
+
+.imgbig{
+  display: flex;
+  max-width: 100%;
+  margin: 5px;
+}
+  
+.img1{
+  height: 70%;
+  width: 50%;
+}
+.img2{
+  height: 70%;
+  width: 50%;
+}
+.img3{
+  height: 70%;
+  width: 50%;
+}
+.img4{
+  height: 70%;
+  width: 50%;
+}
+.img5{
+  height: 70%;
+  width: 50%;
+}
+.img6{
+  height: 70%;
+  width: 50%;
+}
+
+.divbig2{
+  display: flex;
+  margin: 5px;
+}
+
+.big{
+	display: flex;
+}
+
+.card{
+	margin: 15px;
+}
+
+h1{
+  color: blue;
+  background-color: orange;
+  margin: 5px;
+}
+
+</style>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
